@@ -418,12 +418,12 @@ footer {
 
 .kv {
     position: absolute;
-    top: 95px;
+    top: 200px;
     left: 0;
-    right: -650px;
+    right: -600px;
     margin: auto;
-    width: 559px;
-    height: 511px;
+    width: 447px;
+    height: 409px;
     background: url(../img/kv.png) center no-repeat;
     background-size: contain;
 }
