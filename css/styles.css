@@ -711,15 +711,15 @@ footer {
     }
 
     .main-block {
-        min-height: 850px;
+        min-height: 780px;
     }
 
     .decor1 {
         top: 145px;
         left: -130px;
         right: -157px;
-        width: 367px;
-        height: 788px;
+        width: 340px;
+        height: 730px;
         background: url(../img/decor1-mob.png) center no-repeat;
         background-size: contain;
     }
@@ -735,11 +735,11 @@ footer {
     }
 
     .kv {
-        top: 456px;
-        left: -104px;
-        right: -96px;
-        width: 394px;
-        height: 360px;
+        top: 465px;
+        left: -4px;
+        right: -35px;
+        width: 315px;
+        height: 302px;
     }
 
     .steps-block {
