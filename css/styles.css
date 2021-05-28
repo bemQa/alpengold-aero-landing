@@ -428,6 +428,18 @@ footer {
     background-size: contain;
 }
 
+.kv1 {
+    position: absolute;
+    top: 42px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 621px;
+    height: 568px;
+    background: url(../img/kv.png) center no-repeat;
+    background-size: contain;
+}
+
 .steps-block {
     position: relative;
     min-height: 520px;
@@ -714,6 +726,10 @@ footer {
         min-height: 780px;
     }
 
+    .main-block1 {
+        min-height: 550px;
+    }
+
     .decor1 {
         top: 145px;
         left: -130px;
@@ -721,6 +737,16 @@ footer {
         width: 340px;
         height: 730px;
         background: url(../img/decor1-mob.png) center no-repeat;
+        background-size: contain;
+    }
+
+    .main-block1 .decor1 {
+        top: 135px;
+        left: -130px;
+        right: -157px;
+        width: 346px;
+        height: 497px;
+        background: url(../img/decor1-mob1.png) center no-repeat;
         background-size: contain;
     }
 
@@ -740,6 +766,14 @@ footer {
         right: -35px;
         width: 315px;
         height: 302px;
+    }
+
+    .kv1 {
+        top: 159px;
+        left: -50px;
+        right: -45px;
+        width: 413px;
+        height: 369px;
     }
 
     .steps-block {
