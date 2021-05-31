@@ -665,9 +665,88 @@ footer {
     margin: 0 auto;
 }
 
+.cookies-main-block {
+    min-height: 180px;
+}
+
+.main-cookie-h1 {
+    position: relative;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #9F6E5C;
+    padding-top: 100px;
+}
+
+.cookies-page {
+    position: relative;
+    padding: 134px 0 150px;
+    color: #fff;
+}
+
+.cookies-page::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1850px;
+    background: url(../img/cookies-bg.png) center 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.cookies-decor {
+    position: absolute;
+    top: 40px;
+    left: -200px;
+    right: -200px;
+    margin: auto;
+    width: 1290px;
+    height: 1511px;
+    background: url(../img/cookies-decor.png) center no-repeat;
+    background-size: contain;
+}
+
+.cookies-page .container {
+    max-width: 900px;
+}
+
+.cookies-page p {
+    font-size: 13px;
+    line-height: 1.2;
+    margin: 20px 0;
+}
+
+.main-cookie-h3 {
+    font-size: 20px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.cookie-text-ul {
+    font-size: 13px;
+    line-height: 1.2;
+    padding-left: 50px;
+    list-style: disc;
+}
+
+.cookie-text-ul li {
+    margin: 20px 0;
+}
+
+.main-cookie-h2 {
+    font-size: 20px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
 @media (max-width: 1440px) {
     .steps-block::before,
-    .products-block::before {
+    .products-block::before,
+    .cookies-page::before {
         background-size: cover;
     }
 }
@@ -679,6 +758,10 @@ footer {
 
     .kv {
         right: -500px;
+    }
+
+    .main-cookie-h1 {
+        font-size: 34px;
     }
 }
 
@@ -879,6 +962,66 @@ footer {
 
     .product2 {
         margin: 18px auto 0;
+    }
+
+    .cookies-main-block {
+        min-height: 290px;
+    }
+
+    .main-cookie-h1 {
+        font-size: 30px;
+        line-height: 34px;
+        padding-top: 160px;
+    }
+
+    .cookies-page {
+        padding: 68px 0 100px;
+    }
+
+    .cookies-page::before {
+        height: 3550px;
+        background: url(../img/cookies-bg-mob.png) center 0 no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .cookies-page .container {
+        width: 330px;
+    }
+
+    .cookies-decor {
+        top: -150px;
+        width: 393px;
+        height: 235px;
+        background: url(../img/cookies-decor-mob.png) center no-repeat;
+        background-size: contain;
+    }
+
+    .cookies-decor2 {
+        position: absolute;
+        bottom: -80px;
+        left: 0;
+        right: -300px;
+        margin: auto;
+        width: 99px;
+        height: 211px;
+        background: url(../img/cookies-decor2-mob.png) center no-repeat;
+        background-size: contain;
+    }
+
+    .cookies-page p {
+        font-size: 14px;
+        margin: 20px 0;
+    }
+
+    .cookie-text-ul {
+        font-size: 14px;
+        padding-left: 20px;
+    }
+
+    .main-cookie-h3,
+    .main-cookie-h2 {
+        font-size: 21px;
+        line-height: 28px;
     }
 }
 
