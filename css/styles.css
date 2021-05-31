@@ -686,6 +686,10 @@ footer {
     color: #fff;
 }
 
+.cookies-page * {
+    color: #fff;
+}
+
 .cookies-page::before {
     content: '';
     position: absolute;
@@ -693,7 +697,7 @@ footer {
     left: 0;
     right: 0;
     width: 100%;
-    height: 1850px;
+    height: calc(100% + 708px);
     background: url(../img/cookies-bg.png) center 0 no-repeat;
     background-size: 100% 100%;
 }
@@ -979,7 +983,7 @@ footer {
     }
 
     .cookies-page::before {
-        height: 3550px;
+        height: calc(100% + 746px);
         background: url(../img/cookies-bg-mob.png) center 0 no-repeat;
         background-size: 100% 100%;
     }
