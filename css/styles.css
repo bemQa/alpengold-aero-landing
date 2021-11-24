@@ -805,6 +805,39 @@ footer.variant2 {
     margin-bottom: 20px;
 }
 
+.winners {
+    position: absolute;
+    top: 180px;
+    right: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 311px;
+    height: 292px;
+    padding: 138px 80px 50px 100px;
+    background: url(../img/winners.png) center no-repeat;
+    background-size: contain;
+    z-index: 1;
+}
+
+.winners-decor {
+    content: '';
+    position: absolute;
+    top: -20px;
+    right: -50px;
+    width: 99px;
+    height: 211px;
+    background: url(../img/winners-decor.png) center no-repeat;
+    background-size: contain;
+    z-index: 0;
+}
+
+.winner {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+
 @media (max-width: 1440px) {
     .steps-block::before,
     .products-block::before,
@@ -818,12 +851,16 @@ footer.variant2 {
         left: -500px;
     }
 
-    .kv {
+    /*.kv {
         right: -500px;
-    }
+    }*/
 
     .main-cookie-h1 {
         font-size: 34px;
+    }
+
+    .winners {
+        right: 15px;
     }
 }
 
@@ -1100,6 +1137,13 @@ footer.variant2 {
     .main-cookie-h2 {
         font-size: 21px;
         line-height: 28px;
+    }
+
+    .winners {
+        top: 550px;
+        left: 0;
+        right: 0;
+        margin: auto;
     }
 }
 
